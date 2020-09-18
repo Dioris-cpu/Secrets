@@ -2,10 +2,11 @@
 
 * This app allows users to login and write there deepest darkest secrets or there silliest ones.
 
-*   TECH STACK
+
+*   TECH STACK:
 -   Javascript
 -   Passport.js
--   MongoBD
+-   MongoDB
 -   OAuth
 -   EJS
--   CSS  
+-   CSS
