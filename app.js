@@ -34,7 +34,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // connect mongodb database to mongoose
-mongoose.connect("mongodb://localhost:27017/useruserDB", {
+mongoose.connect("mongodb://https://storedsecrets.herokuapp.com/useruserDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
