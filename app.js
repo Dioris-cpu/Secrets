@@ -31,8 +31,9 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
-mongoose.connect("mongodb://localhost:27017/useruserDB", {
+mongoose.connect("mongodb://https://storedsecrets.herokuapp.com/useruserDB", {
   useNewUrlParser: true,
+  useUnifiedTopology: true
 });
 mongoose.set("useCreateIndex", true);
 
@@ -63,7 +64,7 @@ passport.deserializeUser(function (id, done) {
 passport.use(
   new GoogleStrategy(
     {
-      
+
       clientID: process.env.CLIENT_ID,
       clientSecret: process.env.CLIENT_SECRET,
       callbackURL: "https://storedsecrets.herokuapp.com/auth/google/secrets",
