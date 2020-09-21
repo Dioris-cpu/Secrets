@@ -1,6 +1,6 @@
 # Secrets
 
-* This app allows users to login and write there deepest darkest secrets or there silliest ones. This is a safe space :)
+*  Users have the ability to register an account and write there deepest darkest secrets or there silliest ones. This is a safe space :)
 
 
 *   TECH STACK:
@@ -10,3 +10,4 @@
 -   OAuth
 -   EJS
 -   CSS
+
