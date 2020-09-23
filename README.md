@@ -4,7 +4,6 @@
 
 Deployed App: https://storedsecrets.herokuapp.com/
 
-
 *   TECH STACK:
 -   Javascript
 -   Passport.js
