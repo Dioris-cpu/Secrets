@@ -6,7 +6,7 @@
 *   TECH STACK:
 -   Javascript
 -   Passport.js
--   MongoDB
+-   MongoDB Atlas
 -   OAuth
 -   EJS
 -   CSS
