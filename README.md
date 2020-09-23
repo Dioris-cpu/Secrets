@@ -2,7 +2,7 @@
 
 *  Users have the ability to register an account and write there deepest darkest secrets or there silliest ones. This is a safe space :)
 
-Deployed Site: https://storedsecrets.herokuapp.com/
+Deployed Site on Heroku: https://storedsecrets.herokuapp.com/
 
 *   TECH STACK:
 -   Javascript
