@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "engines": {
-    "node": "12.x"
-  },
+  
   "scripts": {
     "test": "test",
     "start": "node app.js"
@@ -19,6 +17,9 @@
   ],
   "author": "dioris",
   "license": "ISC",
+  "engines": {
+    "node": "14.9.0"
+  },
   "bugs": {
     "url": "https://github.com/Dioris-cpu/Secrets/issues"
   },
