@@ -31,7 +31,7 @@ app.use(
 app.use(passport.initialize());
 app.use(passport.session());
 
-mongoose.connect("mongodb://https://storedsecrets.herokuapp.com/useruserDB", {
+mongoose.connect("mongodb+srv://dioris-admin:Carman333@cluster0.ev1jw.mongodb.net/useruserDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
